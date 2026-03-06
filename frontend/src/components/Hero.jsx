@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { ArrowRight, Microscope } from 'lucide-react';
+import { ArrowDown, Microscope } from 'lucide-react';
 import { personalInfo } from '../mock';
 
 const Hero = () => {
@@ -65,7 +65,7 @@ const Hero = () => {
               className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
             >
               View Research
-              <ArrowRight className="ml-2 w-5 h-5" />
+              <ArrowDown className="ml-2 w-5 h-5" />
             </Button>
             <Button
               size="lg"
