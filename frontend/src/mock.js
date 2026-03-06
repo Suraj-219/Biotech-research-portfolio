@@ -1,13 +1,14 @@
 // Mock data for Megha Mohish - Biotechnology Portfolio
+import profileImage from '../src/assets/profile.jpg'
 
 export const personalInfo = {
   name: "Megha Mohish",
   title: "M.Sc Biotechnology Student | Research Enthusiast",
   university: "Lovely Professional University",
-  email: "megha.mohish@example.com",
-  linkedin: "https://www.linkedin.com/in/meghamohish",
+  email: "meghamohish@gmail.com",
+  linkedin: "https://www.linkedin.com/in/megha-mohish",
   researchgate: "https://www.researchgate.net/profile/Megha-Mohish",
-  profileImage: "https://images.unsplash.com/photo-1579154392128-bf8c7ebee541",
+  profileImage: profileImage,
   about: "Passionate biotechnology researcher with a strong foundation in molecular biology, bioinformatics, and genetic analysis. Currently pursuing M.Sc in Biotechnology at Lovely Professional University, I am dedicated to advancing scientific knowledge through innovative research in genomics and protein analysis. My academic journey combines rigorous laboratory training with computational biology, preparing me for impactful contributions to the field of biotechnology and pharmaceutical research."
 };
 
@@ -61,13 +62,13 @@ export const education = [
   {
     degree: "M.Sc Biotechnology",
     institution: "Lovely Professional University (LPU)",
-    duration: "2023 - Present",
+    duration: "2026 - Present",
     description: "Advanced studies in molecular biology, genetic engineering, and bioinformatics with focus on research methodology."
   },
   {
     degree: "B.Sc Biotechnology",
-    institution: "University Name",
-    duration: "2019 - 2023",
+    institution: "Vidyasagar University",
+    duration: "2022 - 2025",
     description: "Foundation in biological sciences, chemistry, and basic biotechnology techniques."
   }
 ];

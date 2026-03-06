@@ -17,7 +17,7 @@ const About = () => {
           {/* Profile Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-br from-teal-400 to-blue-500 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 from-teal-400 to-blue-500 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
               <div className="relative overflow-hidden rounded-2xl border-4 border-white shadow-2xl">
                 <img
                   src={personalInfo.profileImage}

@@ -112,7 +112,7 @@ const Contact = () => {
                   </div>
                 </a>
 
-                <a
+                {/* <a
                   href={personalInfo.researchgate}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -125,7 +125,7 @@ const Contact = () => {
                     <p className="text-sm text-gray-500 font-medium">ResearchGate</p>
                     <p className="text-gray-700 font-semibold">View Publications</p>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
 
@@ -150,7 +150,7 @@ const Contact = () => {
                   type="text"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="John Doe"
+                  placeholder="What's your name?"
                   className={`border-gray-300 focus:border-teal-500 focus:ring-teal-500 ${errors.name ? 'border-red-500' : ''}`}
                 />
                 {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
@@ -166,7 +166,7 @@ const Contact = () => {
                   type="email"
                   value={formData.email}
                   onChange={handleChange}
-                  placeholder="john@example.com"
+                  placeholder="What's your email?"
                   className={`border-gray-300 focus:border-teal-500 focus:ring-teal-500 ${errors.email ? 'border-red-500' : ''}`}
                 />
                 {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
