@@ -1,6 +1,7 @@
 [build]
-publish = "dist" # Make sure this points to your build folder
-command = "npm run build" # Adjust this if your build command is different
+base = "frontend"
+publish = "build" 
+command = "npm run build" 
 
 [[redirects]]
 from = "/*"
