@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from './ui/button';
-import { ArrowDown, Microscope } from 'lucide-react';
+import { ArrowDown, Microscope, Download } from 'lucide-react';
 import { personalInfo } from '../mock';
 
 const Hero = () => {
@@ -78,6 +78,15 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <a href="/Megha_Resume.pdf"
+        download
+        className='absolute top-20 right-6 flex items-center gap-2 
+      bg-white/10 text-white px-6 py-3 rounded-xl 
+      shadow-lg hover:shadow-xl backdrop-blur-md
+      hover:bg-white/20 transition-all duration-300 
+      hover:scale-105 backdrop-blur-md border-2 border-white/30'>
+        <Download size={18} />
+        Download Resume</a>
 
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">

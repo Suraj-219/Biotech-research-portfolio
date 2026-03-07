@@ -9,7 +9,6 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/megha-mohish",
   researchgate: "https://www.researchgate.net/profile/Megha-Mohish",
   profileImage: profileImage,
-  resumeHref: '',
   about: "Passionate biotechnology researcher with a strong foundation in molecular biology, bioinformatics, and genetic analysis. Currently pursuing M.Sc in Biotechnology at Lovely Professional University, I am dedicated to advancing scientific knowledge through innovative research in genomics and protein analysis. My academic journey combines rigorous laboratory training with computational biology, preparing me for impactful contributions to the field of biotechnology and pharmaceutical research."
 };
 
