@@ -5,24 +5,46 @@ import { Award, Calendar } from 'lucide-react';
 
 const CertificationCard = ({ cert, index }) => {
   return (
-    <Card className="border-2 border-gray-100 hover:border-teal-300 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 group">
-      <CardHeader>
-        <div className="flex items-start justify-between mb-3">
-          <div className="p-3 bg-gradient-to-br from-teal-100 to-blue-100 rounded-lg group-hover:scale-110 transition-transform duration-300">
-            <Award className="w-7 h-7 text-[#0A2463]" />
-          </div>
-          <div className="flex items-center gap-1 text-teal-600 bg-teal-50 px-3 py-1 rounded-full">
-            <Calendar className="w-4 h-4" />
-            <span className="text-sm font-medium">{cert.year}</span>
-          </div>
-        </div>
-        <CardTitle className="text-xl text-[#0A2463] leading-snug">{cert.title}</CardTitle>
-        <CardDescription className="text-base font-medium text-gray-700">{cert.issuer}</CardDescription>
-      </CardHeader>
-      <CardContent>
-        <p className="text-gray-600 leading-relaxed">{cert.description}</p>
-      </CardContent>
-    </Card>
+    <a
+    href={cert.file}
+    target="_blank"
+    download
+    rel="noopener noreferrer"
+  >
+    <Card className="h-full flex flex-col border-2 border-gray-100 hover:border-teal-300 transition-all duration-300 hover:shadow-xl transform hover:-translate-y-1 group">
+
+  <CardHeader>
+    <div className="flex items-start justify-between mb-3">
+      
+      <div className="p-3 bg-gradient-to-br from-teal-100 to-blue-100 rounded-lg group-hover:scale-110 transition-transform duration-300">
+        <Award className="w-7 h-7 text-[#0A2463]" />
+      </div>
+
+      <div className="flex items-center gap-1 text-teal-600 bg-teal-50 px-3 py-1 rounded-full">
+        <Calendar className="w-4 h-4" />
+        <span className="text-sm font-medium">{cert.year}</span>
+      </div>
+
+    </div>
+
+    <CardTitle className="text-xl text-[#0A2463] leading-snug">
+      {cert.title}
+    </CardTitle>
+
+    <CardDescription className="text-base font-medium text-gray-700">
+      {cert.issuer}
+    </CardDescription>
+
+  </CardHeader>
+
+  <CardContent className="flex-grow">
+    <p className="text-gray-600 leading-relaxed">
+      {cert.description}
+    </p>
+  </CardContent>
+
+</Card>
+    </a>
   );
 };
 

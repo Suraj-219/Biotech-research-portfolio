@@ -16,11 +16,11 @@ export const skills = [
   { name: "Molecular Biology", level: 90, icon: "dna" },
   { name: "Bioinformatics", level: 85, icon: "binary" },
   { name: "Genomics", level: 88, icon: "layers" },
-  { name: "Protein Analysis", level: 82, icon: "atom" },
+  { name: "Protein Analysis", level: 85, icon: "atom" },
   { name: "Cell Culture Techniques", level: 87, icon: "microscope" },
-  { name: "Data Analysis", level: 84, icon: "bar-chart" },
+  { name: "Data Analysis", level: 70, icon: "bar-chart" },
   { name: "Scientific Research", level: 91, icon: "flask-conical" },
-  { name: "Lab Techniques", level: 89, icon: "test-tube" }
+  { name: "Lab Techniques", level: 92, icon: "test-tube" }
 ];
 
 export const projects = [
@@ -75,16 +75,18 @@ export const education = [
 
 export const certifications = [
   {
+    title: "Workshop on Advanced Chromatographic Techniques",
+    issuer: "Central Instrumentation Facility in association with LPU",
+    year: "2025",
+    description: "Practical training on chromatographic separation techniques including TLC, paper chromatography, and analytical methods used for biomolecule analysis.",
+    file: "/Chromatography.jpg"
+  },
+  {
     title: "Bioinformatics Specialization",
     issuer: "Coursera - UC San Diego",
     year: "2024",
-    description: "Advanced training in computational biology and genomic data analysis"
-  },
-  {
-    title: "Laboratory Techniques in Molecular Biology",
-    issuer: "Professional Training Institute",
-    year: "2023",
-    description: "Hands-on certification in PCR, gel electrophoresis, and cloning techniques"
+    description: "Advanced training in computational biology and genomic data analysis",
+    file: "/Bioinformatics.png"
   },
   {
     title: "Research Methodology in Life Sciences",
@@ -92,12 +94,12 @@ export const certifications = [
     year: "2023",
     description: "Comprehensive training in scientific research design and analysis"
   },
-  {
-    title: "Good Laboratory Practices (GLP)",
-    issuer: "Regulatory Body",
-    year: "2022",
-    description: "Certification in standard laboratory protocols and safety procedures"
-  }
+  // {
+  //   title: "Good Laboratory Practices (GLP)",
+  //   issuer: "Regulatory Body",
+  //   year: "2022",
+  //   description: "Certification in standard laboratory protocols and safety procedures"
+  // }
 ];
 
 export const researchInterests = [
