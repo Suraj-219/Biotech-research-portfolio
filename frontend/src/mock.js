@@ -93,7 +93,7 @@ export const certifications = [
     issuer: "Central Instrumentation Facility in association with LPU",
     year: "2026",
     description: "Advance Research with Field Emission Scanning Electron Microscopy: Exploring the nano-structural imaging.",
-    file: "/Electron microscopy"
+    file: "/Electron microscopy.jpeg"
   },
   // {
   //   title: "Good Laboratory Practices (GLP)",
