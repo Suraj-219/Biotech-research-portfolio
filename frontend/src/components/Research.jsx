@@ -13,7 +13,7 @@ const ProjectCard = ({ project, index }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="relative overflow-hidden h-56">
+      {/* <div className="relative overflow-hidden h-56">
         <img
           src={project.image}
           alt={project.title}
@@ -27,9 +27,9 @@ const ProjectCard = ({ project, index }) => {
         <div className="absolute bottom-4 left-4 right-4">
           <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
         </div>
-      </div>
+      </div> */}
 
-      <CardContent className="p-6">
+      {/* <CardContent className="p-6">
         <p className="text-gray-700 mb-4 leading-relaxed">{project.description}</p>
 
         <div className="mb-4">
@@ -49,15 +49,15 @@ const ProjectCard = ({ project, index }) => {
             <span>{project.impact}</span>
           </p>
         </div>
-      </CardContent>
+      </CardContent> */}
     </Card>
   );
 };
 
 const Research = () => {
   return (
-    <section id="research" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section >
+      {/* <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-[#0A2463] mb-4">
             Research & Projects
@@ -73,7 +73,7 @@ const Research = () => {
             <ProjectCard key={project.id} project={project} index={index} />
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
