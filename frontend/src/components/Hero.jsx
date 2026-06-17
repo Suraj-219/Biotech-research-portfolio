@@ -78,7 +78,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <a href="/Megha_Resume.pdf"
+      <a href="/Megha_CV.pdf"
         download
         className='absolute top-20 right-6 flex items-center gap-2 
       bg-white/10 text-white px-6 py-3 rounded-xl 
