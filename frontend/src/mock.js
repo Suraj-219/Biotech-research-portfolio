@@ -89,10 +89,11 @@ export const certifications = [
     file: "/Bioinformatics.png"
   },
   {
-    title: "Research Methodology in Life Sciences",
-    issuer: "Academic Institution",
-    year: "2023",
-    description: "Comprehensive training in scientific research design and analysis"
+    title: "Electron Microscopy",
+    issuer: "Central Instrumentation Facility in association with LPU",
+    year: "2026",
+    description: "Advance Research with Field Emission Scanning Electron Microscopy: Exploring the nano-structural imaging.",
+    file: "/Electron microscopy"
   },
   // {
   //   title: "Good Laboratory Practices (GLP)",
